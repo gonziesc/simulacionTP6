@@ -1,0 +1,9 @@
+language: javascript
+dist: trusty
+addons:
+  sonarcloud:
+    organization: gonziesc-github
+    token:
+      secure: 47a96356829ca6e0b33a9e387873d207bc593c42
+script:
+  - sonar-scanner
